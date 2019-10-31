@@ -9,7 +9,7 @@ sudo apt-get -y install python-virtualenv virtualenv
 #sudo locale-gen "en_US.UTF-8"
 
 #export LC_ALL="en_US.UTF-8" && export LC_CTYPE="en_US.UTF-8"
-git clone https://github.com/rottencoin/sentinel.git sentinel
+git clone https://github.com/nyoy08/sentinel.git sentinel
 cd sentinel
 virtualenv ./venv
 ./venv/bin/pip install -r requirements.txt
